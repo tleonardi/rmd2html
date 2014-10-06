@@ -1,0 +1,12 @@
+```{r set-options, echo=FALSE, cache=FALSE}
+        options(replace.assign=TRUE,width=70)
+        opts_chunk$set(dev=c("png","pdf"), dpi=300, fig.path='script2-fig/', cache.path='cache/script2-', par=TRUE, echo=FALSE, warning=F, message=F, cache=TRUE, results='hide', error=F)
+```
+
+```{r}
+library(ggplot2)
+```
+# This is Plot2
+```{r fig.cap="This is a dotplot"}
+ggplot(mtcars, aes(x = factor(vs), fill = factor(cyl), y = mpg)) + geom_dotplot(binaxis = "y", stackdir = "center", position = "dodge")
+```

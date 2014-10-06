@@ -1,0 +1,3 @@
+% Analysis of pcRNAs
+% Git commit `r system("git log -1 --format='%H'", intern=T)`
+% `r system('date +"%d-%m-%y"', intern=T)`
