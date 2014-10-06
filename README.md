@@ -1,5 +1,5 @@
 # Rmd2html
-This repo contains a set of scripts that turn a set of Rmd files into a beautiful, fluid html page that using twitter bootstrap.
+This repo contains a set of scripts that turn a set of Rmd files into a beautiful, fluid html page that uses twitter bootstrap.
 The worflow is the following:
 
 1. Run [Knitr](http://yihui.name/knitr/) to convert the Rmd files to produce md files and figures.
