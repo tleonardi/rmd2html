@@ -7,6 +7,6 @@
 library(ggplot2)
 ```
 # This is Plot2
-```{r fig.cap="This is a dotplot"}
+```{r fig2, fig.cap="This is a dotplot"}
 ggplot(mtcars, aes(x = factor(vs), fill = factor(cyl), y = mpg)) + geom_dotplot(binaxis = "y", stackdir = "center", position = "dodge")
 ```

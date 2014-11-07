@@ -7,6 +7,6 @@
 library(ggplot2)
 ```
 # This is Plot1
-```{r fig.cap="This is a scatterplot of mpg vs wt"}
+```{r fig1, fig.cap="This is a scatterplot of mpg vs wt"}
 ggplot(mtcars, aes(mpg, wt)) + geom_point(colour="grey50", size = 4) + geom_point(aes(colour = cyl))
 ```
